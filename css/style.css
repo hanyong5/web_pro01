@@ -28,6 +28,8 @@ body{font-family: 'Roboto', sans-serif;}
 #header .content .content-1st{width:170px;position: absolute;left:50%;top:50%;
 				transform:translate(-50%,-50%);text-align:center;
 				}
+				
+/*content-2st*/
 #header .content .content_bg{display: none;position: absolute;width: 100%;top:0;
 				bottom:0;background:rgba(0,0,0,0.3);}
 #header .content .content_bg .btn{position: relative;top:50%;transform:translateY(-50%);}
