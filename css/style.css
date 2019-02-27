@@ -18,7 +18,7 @@ body{font-family: 'Roboto', sans-serif;}
 #header .content .row img{margin:0 auto;margin-bottom:10px;}
 #header .content .row > div{float: left;width:25%;height: 315px;position: relative;}
 #header .content .row > div:nth-child(1){background:skyblue;}
-#header .content .row > div:nth-child(2){background:lightblue;}
+#header .content .row > div:nth-child(2){background:lightblue;cursor:pointer;}
 #header .content .row > div:nth-child(3){width:50%;background:red;}
 #header .content .row > div:nth-child(4){background:yellow;}
 #header .content .row > div:nth-child(5){background:violet;}
@@ -27,3 +27,6 @@ body{font-family: 'Roboto', sans-serif;}
 #header .content .content-1st{width:170px;position: absolute;left:50%;top:50%;
 				transform:translate(-50%,-50%);text-align:center;
 				}
+#header .content .content_bg{display: none;position: absolute;width: 100%;top:0;bottom:0;background:rgba(0,0,0,0.3);}
+#header .content .content_bg .btn{position: relative;top:50%;transform:translateY(-50%);}
+#header .content .row > div:nth-child(2):hover .content_bg{display: block;}

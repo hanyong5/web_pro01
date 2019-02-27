@@ -7,10 +7,17 @@
 
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/jquery.bxslider.css">
+	<link rel="stylesheet" href="css/colorbox.css">
 
 	<link rel="stylesheet" href="css/style.css">
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/jquery.bxslider.js"></script>
+	<script src="js/jquery.colorbox.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".content-2st").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+		});
+	</script>
 </head>
 <body>
 	<header id="header">
@@ -36,7 +43,12 @@
 						<h3>COMPANY 뉴스레터<br>신청하기</h3>
 					</div>
 				</div>
-				<div>text2</div>
+				<div class="content-2st" href="http://www.youtube.com/embed/VOJyrQa_WR4?rel=0&amp;wmode=transparent">
+					<img src="img/img01_01.jpg" alt="">
+					<div class="content_bg">
+						<div class="btn"><img src="img/icon01_06.png" alt=""></div>
+					</div>
+				</div>
 				<div>text3</div>
 				<div>text4</div>
 				<div>text5</div>
