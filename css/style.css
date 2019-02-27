@@ -12,7 +12,7 @@ body{font-family: 'Roboto', sans-serif;}
 
 #header .slider_wrap{height:1010px;background:blue;}
 
-#header .content{width: 1260px;height:1250px;background: #0f0;
+#header .content{width: 1260px;height:1255px;background: #0f0;
 	position: absolute;bottom:0;left:50%;transform:translateX(-50%);}
 #header .content .row{width:100%;}
 #header .content .row img{margin:0 auto;margin-bottom:10px;}
@@ -24,9 +24,17 @@ body{font-family: 'Roboto', sans-serif;}
 #header .content .row > div:nth-child(5){background:violet;}
 #header .content .row > div:nth-child(6){width:50%;background:black;}
 
+/*content-1st*/
 #header .content .content-1st{width:170px;position: absolute;left:50%;top:50%;
 				transform:translate(-50%,-50%);text-align:center;
 				}
-#header .content .content_bg{display: none;position: absolute;width: 100%;top:0;bottom:0;background:rgba(0,0,0,0.3);}
+#header .content .content_bg{display: none;position: absolute;width: 100%;top:0;
+				bottom:0;background:rgba(0,0,0,0.3);}
 #header .content .content_bg .btn{position: relative;top:50%;transform:translateY(-50%);}
 #header .content .row > div:nth-child(2):hover .content_bg{display: block;}
+
+/*content-6st*/
+#header .content .content-6st{position: absolute;top:30px;left:50px;}
+#header .content .content-6st h4{position: relative;margin-bottom:25px;}
+#header .content .content-6st h4:after{content:"";position: absolute;width:50px;height:2px;background:#fff;left:0;bottom:-15px;}
+#header .content .content-6st p{font-size:2em;}
