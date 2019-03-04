@@ -2,7 +2,7 @@
 body{font-family: 'Roboto', sans-serif;}
 #header{height: 1950px;background:skyblue;position: relative;color:white;}
 #header .header_top{position: absolute;top:20px;width: 1260px;
-	height:50px;_background:#f00;left:50%;margin-left:-630px;}
+	height:50px;_background:#f00;left:50%;margin-left:-630px;z-index:1;}
 #header .header_top h1{float: left;line-height:50px;color:white;}
 #header .header_top nav{float: right;}
 #header .header_top nav>ul{}
@@ -11,6 +11,16 @@ body{font-family: 'Roboto', sans-serif;}
 				padding:10px 20px;color:white;font-weight:bold;}
 
 #header .slider_wrap{height:1010px;background:blue;}
+#header .slider_wrap img{width:100%;}
+#header .slider_wrap .bx-wrapper {
+    box-shadow:none;
+    border:none;
+    background: #fff;
+}
+#header div.txt_wrap{width:700px;position: absolute;top:20%;left:50%;transform:translate(-50%,-50%);text-align:center;}
+#header div.txt_wrap > p.txt_title{font-size:3.5em;position: relative;margin-bottom:25px;}
+#header div.txt_wrap > p.txt_title:after{content:"";display: block;position: absolute;width:100%;height:2px;bottom:-10px;left:0;background: #fff;}
+#header div.txt_wrap > p.txt_content{}
 
 #header .content{width: 1260px;height:1255px;background: #0f0;
 	position: absolute;bottom:0;left:50%;transform:translateX(-50%);}
